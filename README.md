@@ -1,5 +1,9 @@
 # LaMIM
-Large Medical Image Foundation Model
+## Large Medical Image Foundation Model
+This repo provides self-supervised pre-trained models for multi-contrast brain MRI
+![workflow](workflow.png)
+
+## How to use
 
 ## For Pre-training
 1. Pull the MONAI docker image
