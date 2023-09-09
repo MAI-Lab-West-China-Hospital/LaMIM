@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ### Download pretrained models
-We provide the self-supervised pre-trained weights in link ([SSL_ViT_Block16](https://drive.google.com/file/d/1x1VI-0AoMqQZYVcbNoTQxe5ac-t3Ia5R/view?usp=drive_link), and [SSL_ViT-Block4](https://drive.google.com/file/d/1ttHL3IeZwuhjLPKS6SeLYjRQW-p6dD1U/view?usp=drive_link)). Dowload and place them into the **Pretrained_models** folder.
+We provide the self-supervised pre-trained weights in [SSL_ViT_Block16](https://drive.google.com/file/d/1x1VI-0AoMqQZYVcbNoTQxe5ac-t3Ia5R/view?usp=drive_link) and [SSL_ViT-Block4](https://drive.google.com/file/d/1ttHL3IeZwuhjLPKS6SeLYjRQW-p6dD1U/view?usp=drive_link). Download and place them into the **Pretrained_models** folder.
 
 ### Data Prepare
 1. Convert DICOM in NIFTI. [dcm2niix](https://github.com/rordenlab/dcm2niix) is recommended.
@@ -29,7 +29,7 @@ We provide the self-supervised pre-trained weights in link ([SSL_ViT_Block16](ht
 3. It is possible to modify Model.py to test more classifier configurations.
 
 ## Pre-train from scratch with own data
-## For Pre-training
+### For Pre-training
 1. Pull the MONAI docker image
 `docker pull projectmonai/monai`
 2. Run run_docker.sh
