@@ -1,6 +1,6 @@
 # Large Medical Image Foundation Model (LaMIM)
 ## Model Overview
-This repository provides self-supervised pre-trained vision transformer autoencoder (ViTAutoEnc) for multi-contrast brain MRI. The training process is illustrated below
+This repository provides self-supervised pre-trained vision transformer autoencoder (ViTAutoEnc), which was trained on 57,000 brain enhanced MRI scans, for multi-contrast brain MRI. The training process is illustrated below
 ![workflow](workflow.png)
 Two mask schemes are used: mask block size 16*16*16 with 86 blocks (A); mask block size 4*4*4 with 6000 blocks (B)
 ![dropout_scheme](dropout_scheme.png)
